@@ -1,0 +1,61 @@
+.navbar-right .nav-item{border-bottom:2px solid #cbcbcb}
+.navbar-right .nav-item a{font:16px/20px Segoe UI;color:#2e2e2e}
+.navbar-right .nav-item:hover{border-bottom:2px solid #000}
+.img-circle{border-radius:50%}
+.name{font:600 24px/32px Segoe UI;color:#2e2e2e}
+.role{font:300 24px/32px Segoe UI;color:#2e2e2e}
+.home_banner{padding:60px}.home_banner 
+.card-title{font:600 56px/74px Segoe UI;color:#2e2e2e}
+.home_banner 
+.card-text{font:normal normal normal 18px/22px Segoe UI;color:#2e2e2e}
+.home_banner .card-text-bold{font-weight:600}
+.section-heading{font:400 26px/35px Segoe UI;color:#2e2e2e;margin-bottom:24px}
+.home_projects{background-color:#fafafa;padding:28px}
+.project_container{padding:55px;background:#ffffff 0% 0% no-repeat padding-box;box-shadow:0px 3px 6px #00000029;border-radius:5px;border:0}
+.project_container .project_details{position:relative}
+.project_container .project_details:after{position:absolute;display:inline-block;content:"";top:0;bottom:0;width:14px;left:-55px}
+.project_container .project_details_blue:after{background-color:#6fa3d8}
+.project_container .project_details_lightblue:after{background-color:#b8e5f8}
+.project_container .project_details_darkb:after{background-color:#1c79d8}
+.project_container .project_details_purple:after{background-color:#b0a6f5}
+.project_container .project_details_orange:after{background-color:#F0A93B}
+.project_container .project_details_green:after{background-color:#b7d1a0}
+.project_container .project_details_red:after{background-color:#fe8471}
+.project_container .project_role{font:600 20px/27px Segoe UI;color:#2e2e2e;display:block}
+.project_container .project_name{font:normal 300 20px/26px Segoe UI;color:#2e2e2e;display:block;margin:8px 0}
+.project_container .project_duration{font:600 14px/19px Segoe UI;color:#2e2e2e;margin-bottom:47px;display:block}
+.project_container .card-body{padding:0;padding-right:3rem}
+.project_container .card-text{font:normal normal normal 16px/23px Segoe UI;color:#2e2e2e}
+.project_screen h5{font:normal 20px/24px Segoe UI;color:#2e2e2e;line-height:32px}
+.project_screen_section{padding:48px 0;font:normal normal normal 16px/18px Segoe UI;line-height:26px;color:#2e2e2e}
+.project_screen_section .title{font:normal normal 600 32px/43px Segoe UI;color:#2e2e2e;opacity:1;line-height:43px}
+.project_screen_section .note{font:normal normal 28px/32px Segoe UI;color:#2e2e2e;line-height:43px;margin-bottom:22px}
+.project_screen_section .myrole{font:normal normal 16px/14px Segoe UI;color:#2e2e2e;opacity:1;line-height:30px}
+.project_screen_section .myrole span{display:block}
+.project_screen_section-gray{background-color:#fafafa}
+.project_screen_section-blue{background-color:#6fa3d8}
+.project_screen_section-lightblue{background-color:#b8e5f8}
+.project_screen_section-darkb{background-color:#1c79d8}
+.project_screen_section-purple{background-color:#b0a6f5}
+.project_screen_section-orange{background-color:#F0A93B}
+.project_screen_section-green{background-color:#b7d1a0}
+.project_screen_section-red{background-color:#fe8471}
+.project_screen_section_caption{font:italic normal bold 36px/48px Segoe UI;color:#2e2e2e;padding:71px 0;line-height:48px}
+.project_screen_section_caption_character{text-align:left;font:normal normal bold 150px/183px Constantia;line-height:145px;color:#2e2e2e;float:left;margin-right:72px}
+.footer{padding:22px;font:normal 16px/21px Segoe UI;line-height:21px;color:#2e2e2e}
+.footer .title{text-align:center;font:normal 24px/32px Segoe UI;line-height:32px;color:#2e2e2e}
+.footer p{margin-bottom:14px}.box-container{background:#ffffff 0% 0% no-repeat padding-box;box-shadow:0px 3px 6px #00000029;border-radius:5px;padding:35px 42px}
+.box-container h5{font:normal normal normal 24px/32px Segoe UI;color:#2e2e2e;line-height:32px;position:relative;min-height:49px;padding:6px 0}
+.box-container h5:after{position:absolute;display:inline-block;background-color:#616161;content:"";top:0;bottom:0;width:14px;left:-42px}
+.box-container.box-container--blue h5:after{background-color:#6fa3d8}
+.box-container.box-container--lightblue h5:after{background-color:#b8e5f8}
+.box-container.box-container--darkb h5:after{background-color:#1c79d8}
+.box-container.box-container--purple h5:after{background-color:#b0a6f5}
+.box-container.box-container--orange h5:after{background-color:#F0A93B}
+.box-container.box-container--green h5:after{background-color:#b7d1a0}
+.box-container.box-container--red h5:after{background-color:#fe8471}
+.box-container ul{list-style:none;padding:0}
+.box-container ul li{font:normal normal normal 16px/16px Segoe UI;color:#2e2e2e;line-height:30px}
+.blueBar{position:relative;padding-left:45px}
+.blueBar:after{position:absolute;display:inline-block;background-color:#b5efef;content:"";top:0;bottom:0;width:14px;left:0px}
+a { text-decoration: none;}

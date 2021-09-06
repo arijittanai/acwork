@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arijit Chatterjee | Designer</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="dist/css/styles.min.css" />
+  </head>
+  <body>
+    <header class="navbar navbar-expand-md bd-navbar">
+      <nav
+        class="container-xxl flex-wrap flex-md-nowrap"
+        aria-label="Main navigation"
+      >
+        <a class="navbar-brand p-0 me-2" href="/" aria-label="Arijit">
+          <img src="https://via.plac---eholder.com/64" alt="" class="img-circle" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#bdNavbar"
+          aria-controls="bdNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            class="bi"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+            ></path>
+          </svg>
+        </button>
+
+        <div class="collapse navbar-collapse" id="bdNavbar">
+          <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0">
+            <li class="nav-item col-6 col-md-auto">
+              <a class="nav-link p-2">
+                <strong class="name">Arijit Chatterjee</strong> <br/>
+                <span class="role">User Experience Designer</span>
+              </a>
+            </li>
+          </ul>
+
+          <hr class="d-md-none text-white-50" />
+
+          <ul class="navbar-nav flex-row flex-wrap ms-md-auto navbar-right">
+            <li class="nav-item col-6 col-md-auto" style="margin-right: 10px">
+              <a
+                class="nav-link p-2"
+                onclick="navigateToprojects()"
+                href="javascript:void(0)"
+                >Project</a
+              >
+            </li>
+            <li class="nav-item col-6 col-md-auto" style="margin-right: 10px">
+              <a class="nav-link p-2" href="about.html">About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="home_banner">
+        <div class="container">
+          <div class="card border-0">
+            <div class="row g-0">
+              <div class="col-md-5 text-center">
+                <img
+                  src="img/photo.jpg"
+                  class="img-fluid img-circle"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title">Hello, I'm Arijit!</h5>
+                  <p class="card-text">
+                    I am a <span class="card-text-bold">Designer</span>
+					who cares about solving complex problems by deeply understanding the people around me and the worlds they live in. </br></br>
+					Focus on Accessibility & Inclusive Design, I'm passionate about empowering tech & design to lower barriers to complex systems.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="home_projects">
+        <h2 class="section-heading text-center" id="projectSection"> Projects
+        </h2>
+        <div class="container w-50">					
+		
+		 <!-- Shawdow IT --> 
+          <div class="card mb-3 project_container">
+            <a href="shawdowIT.html"><div class="align-items-center row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                 <h5 class="card-title project_details project_details_lightblue">
+                    <span class="project_role">Shawdow IT service </span>
+                    <span class="project_name">Digital Risk Platform</span>
+                    <span class="project_duration">
+                      Lead Designer | Web Application, UI/UX, 2019-2020
+                    </span>
+                  </h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="img/portfolio/02.jpg" class="img-fluid rounded-start" alt="..."/>
+              </div>
+            </div></a>
+          </div>
+		  
+		   <!-- Astra --> 
+		      <div class="card mb-3 project_container">
+            <a href="astra.html"><div class="align-items-center row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                 <h5 class="card-title project_details project_details_blue">
+                    <span class="project_role"> Astra - Integrated Digital Platform (IDP) </span>
+                    <span class="project_name">Future of vehicle purchase & ownership experience</span>
+                    <span class="project_duration">
+                      Lead Designer | Android, UI/UX, 2017
+                    </span>
+                  </h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="img/portfolio/01.jpg" class="img-fluid rounded-start" alt="..."/>
+              </div>
+            </div></a>
+          </div>
+		  
+		  
+		<!-- DRP Design System -->  
+		<!-- 
+		<div class="card mb-3 project_container">
+            <a href=""><div class="align-items-center row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                 <h5 class="card-title project_details project_details_darkb">
+                    <span class="project_role">DRP Design System</span>
+                    <span class="project_name">Digital Risk Platform</span>
+                    <span class="project_duration">
+                      Lead Designer | Web Application, UI/UX, 2019-2020
+                    </span>
+                  </h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="img/portfolio/03.jpg" class="img-fluid rounded-start" alt="..."/>
+              </div>
+            </div></a>
+          </div>
+		  -->  
+		  
+		  <!-- Citynext -->  		  
+		  <div class="card mb-3 project_container">
+		  <a href="citynext.html"> 
+            <div class="align-items-center row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title project_details project_details_green">
+                    <span class="project_role"> CityNext </span>
+                    <span class="project_name">Transforming Cities To Empower Citizens</span>
+                    <span class="project_duration">
+                       Designer | Android, UI/UX, 2018
+                    </span>
+                  </h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="img/portfolio/04.jpg"  class="img-fluid rounded-start" alt="..." />
+              </div>
+            </div></a>
+          </div>
+		  
+		  
+		   <!-- Outlook --> 
+		  <div class="card mb-3 project_container">
+		  <a href="outlook.html"> 
+            <div class="align-items-center row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title project_details project_details_red">
+                    <span class="project_role">Intuitive Outlook Calendar</span>
+                    <span class="project_name">Transforming Cities To Empower Citizens</span>
+                    <span class="project_duration">
+                      Designer | Android, UI/UX, 2018
+                    </span>
+                  </h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="img/portfolio/07.jpg"  class="img-fluid rounded-start" alt="..." />
+              </div>
+            </div></a>
+          </div>
+		  
+		   <!-- HP --> 
+		  <div class="card mb-3 project_container">
+		  <a href="hp.html"> 
+            <div class="align-items-center row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title project_details project_details_darkb">
+                    <span class="project_role"> HP - Sales Compensation Solution </span>
+                    <span class="project_name">Building the platform for Salesperson</span>
+                    <span class="project_duration">
+                      Designer | Web Portal, UI/UX, 2017
+                    </span>
+                  </h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="img/portfolio/06.jpg"  class="img-fluid rounded-start" alt="..." />
+              </div>
+            </div></a>
+          </div>
+		  
+		   <!-- Clubsamsung --> 
+		  <div class="card mb-3 project_container">
+		  <a href="clubsamsung.html"> 
+            <div class="align-items-center row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title project_details project_details_red">
+                    <span class="project_role"> Re/imagining - Club Samsung </span>
+                    <span class="project_name">Samsung's Entertainment App</span>
+                    <span class="project_duration">
+                      Lead Designer | Android, UI/UX, 2014-2015
+                    </span>
+                  </h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="img/portfolio/05.jpg"  class="img-fluid rounded-start" alt="..." />
+              </div>
+            </div></a>
+          </div>
+		    
+		   <!-- Visual Demos --> 		  
+		  <div class="card mb-3 project_container">
+		  <a href="vd.html"> 
+            <div class="align-items-center row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title project_details project_details_orange">
+                    <span class="project_role"> Vision Demonstrators</span>
+                    <span class="project_name">visions for various customers</span>
+                    <span class="project_duration">
+                      Designer | Future Concept Presentation
+                    </span>
+                  </h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="img/portfolio/08.jpg"  class="img-fluid rounded-start" alt="..." />
+              </div>
+            </div></a>
+          </div> 
+	  
+        </div>
+      </section>
+    </main>
+    <footer class="text-center footer">
+      <section class="container">
+        <h2 class="title">Thanks for watching!</h2>
+        <p>Imagine future, Invent future for everyone.</p>
+        <p>arijit.tanai@gmail.com | ©️ Arijit Chatterjee 2021</p>
+      </section>
+    </footer>
+  </body>
+</html>
+
+<script type="text/javascript">
+  function navigateToprojects() {
+    document
+      .getElementById("projectSection")
+      .scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest",
+      });
+  }
+</script>

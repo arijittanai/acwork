@@ -1,0 +1,240 @@
+.navbar-right {
+  .nav-item {
+    a {
+      font: 20px/27px Segoe UI;
+
+      color: #2e2e2e;
+    }
+    border-bottom: 1px solid #cbcbcb;
+  }
+}
+.img-circle {
+  border-radius: 50%;
+}
+.name {
+  font: 600 24px/32px Segoe UI;
+
+  color: #2e2e2e;
+}
+.role {
+  font: 300 24px/32px Segoe UI;
+
+  color: #2e2e2e;
+}
+.home_banner {
+  padding: 80px;
+  .card-title {
+    font: 600 56px/74px Segoe UI;
+
+    color: #2e2e2e;
+  }
+  .card-text {
+    font: normal normal normal 19px/26px Segoe UI;
+
+    color: #2e2e2e;
+    &-bold {
+      font-weight: 600;
+    }
+  }
+}
+.section-heading {
+  font: 600 26px/35px Segoe UI;
+
+  color: #2e2e2e;
+
+  margin-bottom: 24px;
+}
+.home_projects {
+  background-color: #fafafa;
+  padding: 28px;
+}
+
+.project_container {
+  padding: 55px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px;
+  border: 0;
+  .project {
+    &_details {
+      position: relative;
+      &:after {
+        position: absolute;
+        display: inline-block;
+        content: "";
+        top: 0;
+        bottom: 0;
+        width: 14px;
+        left: -55px;
+      }
+      &_blue {
+        &:after {
+          background-color: #b5efef;
+        }
+      }
+      &_purple {
+        &:after {
+          background-color: #b0a6f5;
+        }
+      }
+    }
+    &_role {
+      font: 600 20px/27px Segoe UI;
+
+      color: #2e2e2e;
+      display: block;
+    }
+    &_name {
+      font: normal 300 20px/27px Segoe UI;
+      color: #2e2e2e;
+      display: block;
+      margin: 8px 0;
+    }
+    &_duration {
+      font: 600 14px/19px Segoe UI;
+      color: #2e2e2e;
+      margin-bottom: 47px;
+      display: block;
+    }
+  }
+  .card {
+    &-body {
+      padding: 0;
+      padding-right: 3rem;
+    }
+    &-text {
+      font: normal normal normal 16px/23px Segoe UI;
+
+      color: #2e2e2e;
+    }
+  }
+}
+
+// projectsPage
+
+.project_screen {
+  h5 {
+    font: normal 24px/32px Segoe UI;
+    
+    color: #2e2e2e;
+    line-height: 32px;
+  }
+  &_section {
+    padding: 48px 0;
+    font: normal normal normal 19px/26px Segoe UI;
+    line-height: 26px;
+    color: #2e2e2e;
+    .title {
+      font: normal normal 600 32px/43px Segoe UI;
+      
+      color: #2e2e2e;
+      opacity: 1;
+      line-height: 43px;
+    }
+    .note {
+      font: normal normal 32px/43px Segoe UI;
+      
+      color: #2e2e2e;
+      line-height: 43px;
+      margin-bottom: 22px;
+    }
+    .myrole {
+      font: normal normal 19px/15px Segoe UI;
+      
+      color: #2e2e2e;
+      opacity: 1;
+      line-height: 30px;
+      span {
+        display: block;
+      }
+    }
+    &-gray {
+      background-color: #fafafa;
+    }
+    &-blue {
+      background-color: #c8f9f6;
+    }
+    &_caption {
+      font: italic normal bold 36px/48px Segoe UI;
+      color: #2e2e2e;
+      padding: 71px 0;
+      line-height: 48px;
+      &_character {
+        text-align: left;
+        font: normal normal bold 150px/183px Constantia;
+        line-height: 183px;
+        color: #2e2e2e;
+        float: left;
+        margin-right: 72px;
+      }
+    }
+  }
+}
+
+// footer
+.footer {
+  padding: 22px;
+  font: normal 16px/21px Segoe UI;
+  line-height: 21px;
+  color: #2e2e2e;
+
+  .title {
+    text-align: center;
+    font: normal 24px/32px Segoe UI;
+    line-height: 32px;
+    color: #2e2e2e;
+  }
+  p {
+    margin-bottom: 14px;
+  }
+}
+
+.box-container {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px;
+  padding: 35px 42px;
+  h5 {
+    font: normal normal normal 24px/32px Segoe UI;
+    color: #2e2e2e;
+    line-height: 32px;
+    position: relative;
+    min-height: 49px;
+    padding: 6px 0;
+    &:after {
+      position: absolute;
+      display: inline-block;
+      background-color: #b5efef;
+      content: "";
+      top: 0;
+      bottom: 0;
+      width: 14px;
+      left: -42px;
+    }
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      font: normal normal normal 16px/16px Segoe UI;
+      color: #2e2e2e;
+      line-height: 30px;
+    }
+  }
+}
+
+// blueBar
+.blueBar {
+  position: relative;
+  padding-left: 45px;
+  &:after {
+    position: absolute;
+    display: inline-block;
+    background-color: #b5efef;
+    content: "";
+    top: 0;
+    bottom: 0;
+    width: 14px;
+    left: 0px;
+  }
+}
